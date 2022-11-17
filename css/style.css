@@ -1,0 +1,91 @@
+body{
+	background-color: #8007e4;
+}
+
+td {
+	border: 2px solid #333;
+	height: 100px;
+	width: 100px;
+	text-align: center;
+	vertical-align: middle;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 70px;
+	cursor: pointer;
+}
+
+table {
+	border-collapse: collapse;
+	position: absolute;
+	left: 50%;
+	margin-left: -155px;
+	top: 50px;
+	background-color: #ffffff;
+}
+
+.endgame {
+	display: none;
+	width: 200px;
+	top: 120px;
+	background-color: rgba(10, 235, 243, 0.7);
+	position: absolute;
+	left: 50%;
+	margin-left: -100px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	text-align: center;
+	border-radius: 5px;
+	color: white;
+	font-size: 2em;
+}
+
+.selectSym, .selectGameType {
+	display: none;
+	width: 220px;
+	top: 110px;
+	background-color: rgba(23, 228, 15, 0.5);
+	position: absolute;
+	left: 50%;
+	margin-left: -110px;
+	padding-top: 10px;
+	padding-bottom: 50px;
+	text-align: center;
+	border-radius: 5px;
+	color: rgb(255, 0, 0);
+	font-size: 1.8em;
+}
+
+.selectSym button {
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 50px;
+	width: 70px;
+}
+
+.selectGameType button {
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 20px;
+	width: 200px;
+	background-color: rgba(0, 225, 255, 0.5);
+	border-radius: 5px;
+}
+
+.selectSym button:first-of-type {
+	margin-right: 10px;
+}
+
+.selectSym button:last-of-type {
+	margin-left: 10px;
+}
+.start__button {
+	position: absolute;
+   width: 300px;
+   height: 50px;
+	position: absolute;
+	left: 50%;
+	margin-left: -155px;
+	top: 400px;
+	text-align: center;
+	color: #4400ff;
+	font-size: 2em;
+	background-color: #ff0095;
+	border-radius: 10px;
+}
